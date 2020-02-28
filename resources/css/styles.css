@@ -18,3 +18,14 @@ body {
     75%  {background: #D2B48C;}
     100% {background: #FFE4C4;}
 } 
+h1 {
+    font-family: Arial;
+    font-size: 250%;
+}
+h2 {
+    font-family: Arial;
+}
+p {
+    font-family: Arial;
+    font-size: 130%;
+}
