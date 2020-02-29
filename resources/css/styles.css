@@ -34,15 +34,15 @@ ul {
     margin: 0;
     padding: 0;
     width: 150px;
-    background-color: #f5f2e9;
+    background-color: #e6e5e3;
 }
 li a {
     display: block;
-    color: #f7c07c;
+    color: #a67126;
     padding: 8px 16px;
     text-decoration: none;
 }
 li a:hover {
     background-color: #555;
-    color: white;
+    color: #e6e5e3;
   }
