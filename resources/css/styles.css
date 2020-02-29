@@ -33,16 +33,19 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 150px;
+    overflow: hidden;
     background-color: #e6e5e3;
+}
+li {
+    display: inline-block;
 }
 li a {
     display: block;
     color: #a67126;
-    padding: 8px 16px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
     background-color: #555;
-    color: #e6e5e3;
-  }
+}
