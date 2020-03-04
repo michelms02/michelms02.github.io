@@ -3,20 +3,6 @@
 body {
     background-color: #9e9f9f;
 }
-/* @-webkit-keyframes colorchange {
-     0%  {background: #F5DCAE;}
-    25%  {background: #DEB887;}
-    50%  {background: #CD853F;}
-    75%  {background: #D2B48C;}
-    100% {background: #FFE4C4;}
-}
-@keyframes colorchange {
-     0%  {background: #F5DCAE;}
-    25%  {background: #DEB887;}
-    50%  {background: #CD853F;}
-    75%  {background: #D2B48C;}
-    100% {background: #FFE4C4;}
-} */
 h1 {
     font-family: Arial;
     font-size: 250%;
@@ -31,3 +17,17 @@ p {
 .bg-custom {
     background-color:rgba(0, 0, 0, 0.5);
 }
+.jumbotron{
+    position: relative;
+    z-index:-2;
+  }
+#video-background { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    width:100%;
+  }
