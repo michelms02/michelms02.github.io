@@ -1,10 +1,9 @@
 /* CSS Document */
 
 body {
-    -webkit-animation: colorchange 30s infinite; 
-    animation: colorchange 30s infinite;
+    background-color: #9e9f9f;
 }
-@-webkit-keyframes colorchange {
+/* @-webkit-keyframes colorchange {
      0%  {background: #F5DCAE;}
     25%  {background: #DEB887;}
     50%  {background: #CD853F;}
@@ -17,7 +16,7 @@ body {
     50%  {background: #CD853F;}
     75%  {background: #D2B48C;}
     100% {background: #FFE4C4;}
-} 
+} */
 h1 {
     font-family: Arial;
     font-size: 250%;
@@ -29,26 +28,6 @@ p {
     font-family: Arial;
     font-size: 130%;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #dbcdb2;
-}
-li {
-    float: left;
-    position: relative;
-    right: -44%;
-    text-align: left;
-}
-li a {
-    display: block;
-    color: #a67126;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #363636;
+.bg-custom {
+    background-color:rgba(0, 0, 0, 0.5);
 }
