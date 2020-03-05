@@ -1,5 +1,4 @@
-/* CSS Document */
-
+/* Emberdot Dev CSS Document */
 body {
     background-color: #9e9f9f;
 }
@@ -12,9 +11,6 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.5px black;
     margin: 0 0 0px;
-}
-.div-h1 {
-
 }
 .p-h1 {
     font-family: Tahoma, Geneva, sans-serif;
@@ -58,11 +54,10 @@ h3 {
     left: 0;
     overflow: hidden;
     z-index: -1;
-    width:100%;
     min-height: 100%;
     min-width: 100%;
 }
 @font-face {
     font-family: "Blacklisted";
     src: url("resources\fonts\Blacklisted.ttf");
-    }
+}
