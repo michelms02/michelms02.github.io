@@ -4,15 +4,43 @@ body {
     background-color: #9e9f9f;
 }
 h1 {
-    font-family: Arial;
-    font-size: 250%;
+    font-family: "Blacklisted";
+    font-size: 75px;
+    text-align: center;
+    background: -webkit-linear-gradient(#ff8902, #ea3e5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px black;
+    margin: 0 0 0px;
 }
-h2 {
-    font-family: Arial;
+.div-h1 {
+
 }
-p {
+.p-h1 {
     font-family: Arial;
-    font-size: 130%;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin: 0 0 70px;
+}
+h3 {
+    margin: 20px 0 10px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#ff8902, #ea3e5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p-h3 {
+    font-family: Arial;
+    color: #88878e;
+    margin: 0 0 20px;
+    font-size: 100%;
+}
+.btn-outline-secondary {
+    margin: 0 0 20px;
+}
+.col-sm-4 {
+    background-color:rgba(0, 0, 0, 0.7);
 }
 .bg-custom {
     background-color:rgba(0, 0, 0, 0.5);
@@ -20,7 +48,7 @@ p {
 .jumbotron{
     position: relative;
     z-index:-2;
-  }
+}
 #video-background { 
     position: fixed;
     top: 0;
@@ -30,4 +58,8 @@ p {
     overflow: hidden;
     z-index: -1;
     width:100%;
-  }
+}
+@font-face {
+    font-family: "Blacklisted";
+    src: url("resources\fonts\Blacklisted.ttf");
+    }
