@@ -1,4 +1,3 @@
 # emberdot.github.io
 
-favicon source:
-https://gfxmag.com/custard-emoji-vector-icon/
+No asset or resource on this WebSite is being used for comercial purposes.
