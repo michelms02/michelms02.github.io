@@ -45,6 +45,7 @@ h3 {
 .jumbotron{
     position: relative;
     z-index:-2;
+    background-color: transparent;
 }
 #video-background { 
     position: fixed;
